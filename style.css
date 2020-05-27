@@ -1,16 +1,54 @@
+html{
+    margin: 0;
+}
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    text-align: center;
+}
+.heading{
+    font-family: 'Monoton', cursive;
+    font-size: 72px;
+    letter-spacing: 0.2em;
+    color: #fff;
+}
+.tip{
+    font-family: 'Bangers', cursive;
+    font-size: 32px;
+    color: #fff;
+}
 .keys{
+    text-align: center;
+    width: 50%;
     margin: auto;
-    width: 70%;
 }
 .key{
-    margin: 20px;
-    padding: 20px;
-    border: solid 3px #000;
+    margin: 10px;
+    padding: 30px;
+    border: solid 3px;
     text-align: center;
     width: 10%;
+    border-radius: 20px;
+    font-family: 'Bangers', cursive;
+    color: #fff;
+}
+.playing{
+    transform: scale(1.1);
+    border: solid 3px rgb(219, 13, 13);
+    transition-duration: 0.1s;
 }
 .row{
     display: flex;
     margin: auto;
-    width: 50%;
+    justify-content: center;
+}
+.key-name{
+    font-size: 28px;
+    font-family: 'Monoton', cursive;
+}
+.sound{
+    font-size: 24px;
 }
