@@ -1,9 +1,15 @@
 .keys{
-    display: flex;
+    margin: auto;
+    width: 70%;
 }
 .key{
     margin: 20px;
     padding: 20px;
     border: solid 3px #000;
     text-align: center;
+}
+.row{
+    display: flex;
+    margin: auto;
+    width: 50%;
 }
