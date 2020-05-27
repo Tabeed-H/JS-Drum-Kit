@@ -1,0 +1,9 @@
+.keys{
+    display: flex;
+}
+.key{
+    margin: 20px;
+    padding: 20px;
+    border: solid 3px #000;
+    text-align: center;
+}

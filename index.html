@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title>Drum Kit</title>
+    <link href = "style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <span class="key-name">A</span>
+            <br>
+            <span class="sound">Boom</span>
+        </div>
+
+        <div data-key="83" class="key">
+            <span class="key-name">S</span>
+            <br>
+            <span class="sound">Clap</span>
+        </div>
+
+        <div data-key="68" class="key">
+            <span class="key-name">D</span>
+            <br>
+            <span class="sound">Hihat</span>
+        </div>
+        <!--
+        <div data-key="65" class="key">
+            <span class="key-name">A</span>
+            <span class="sound">Boom</span>
+        </div>
+        <div data-key="65" class="key">
+            <span class="key-name">A</span>
+            <span class="sound">Boom</span>
+        </div>
+        <div data-key="65" class="key">
+            <span class="key-name">A</span>
+            <span class="sound">Boom</span>
+        </div>
+        <div data-key="65" class="key">
+            <span class="key-name">A</span>
+            <span class="sound">Boom</span>
+        </div> -->
+    </div>
+
+    <audio data-key="65" src="sounds/boom.wav"></audio>
+    <audio data-key="83" src="sounds/clap.wav"></audio>
+    <audio data-key="68" src="sounds/hihat.wav"></audio>
+    <script src="main.js"></script>
+</body>
